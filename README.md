@@ -26,3 +26,5 @@ rpa_kgqa/
 ├── relations_dbpedia.json
 ├── relations_yago.json
 └── relations_freebase.json
+
+!()[RPA示例图.PNG]
