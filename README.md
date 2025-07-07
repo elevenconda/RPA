@@ -27,4 +27,4 @@ rpa_kgqa/
 ├── relations_yago.json
 └── relations_freebase.json
 
-!()[RPA示例图.PNG]
+!()[./RPA示例图.PNG]
