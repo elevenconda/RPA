@@ -13,19 +13,16 @@ This project implements the Relation Path Alignment (RPA) module for aligning la
 - User-in-the-loop answer selection
 📂 Project Structure
 
-rpa_kgqa/
-├── main.py
-├── config.py
-├── normalize.py
-├── kg_index.py
-├── matcher.py
-├── query_executor.py
-├── user_resolution.py
-├── requirements.txt
-├── README.md
-└── data/
-├── relations_dbpedia.json
-├── relations_yago.json
-└── relations_freebase.json
+rpa-kgqa/
+├── matcher.py              # Dual-stage relation matching
+├── normalize.py            # Relation name preprocessing
+├── kg_index.py             # Build KG-side relation index
+├── query_executor.py       # KG triple querying
+├── user_resolution.py      # Resolve conflicting answers via user
+├── experiments/
+│   └── run_experiments.py  # Entry script with ablation
+├── data/                   # Dataset files
+├── results/                # Output logs
+└── README.md
 
 
